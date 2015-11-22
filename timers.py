@@ -1,13 +1,15 @@
 import time
+import numpy as np
 
 t = time.time()
 # do stuff
 
-for x in range(0,10000000):
-    y = 1
+x = np.linspace(0, 10, 5000)
+print(np.shape(x))
+
 
 
 elapsed = time.time() - t
 
-print(elapsed)
+#print(elapsed)
 
